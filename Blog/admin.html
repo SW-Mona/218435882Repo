@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SW Mona Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+  </head>
+  <body>
+    <div class="container mt-3">
+        <h2 class="card-title" style = "color: white; background-color:blue; text-align: center">My Blog</h2>
+      <div class="mt-4 p-5 bg-primary text-white rounded">
+        <h1>How is your tour so far?</h1>
+      </div>
+    </div>
+    <h1 class="card-title" style = "color: white; background-color:blue; text-align: center">Create an Article </h1>
+
+    <div class="container">
+        <form action="/action_page_process_submitted_data.php">
+        <h2 class="card-title" style = "color: white; background-color:blue; text-align: left"> Article Title</h2>
+        <input class = "form-control" type="text"id = "artTitle" name="" value="">
+        <br>
+        <h2 class="card-title" style = "color: white; background-color:blue; text-align: left"> Choose an Image</h2>
+        <input type="file" id="file" name="" value="">
+        <br><br>
+        <h2 class="card-title" style = "color: white; background-color:blue; text-align: left"> Article Text</h2>
+        <textarea class="form-control" rows="5" id="artTxt"></textarea>
+        <br>
+        <h2 class="card-title" style = "color: white; background-color:blue; text-align: left"> Article Category</h2>
+        <input class = "form-control" type="text" id = "artCat" name="" value="">
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <img class="big-pic" src="./images/13.jpg" alt="">
+        <img class="mid-pic" src="./images/x.jpg" alt="">
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

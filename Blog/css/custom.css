@@ -1,0 +1,105 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+}
+
+.picAni{
+  animation: drop 2.0s ease;
+}
+.big-pic {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.9;
+  height: 99%;
+  animation: drop 2.0s ease;
+}
+
+.mid-pic2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 1;
+  height: 99%;
+  animation: drop 2.0s ease;
+}
+
+.mid-pic3 {
+  position: absolute;
+  top: 750px;
+  right: 0px;
+  z-index: -1;
+  opacity: 1;
+  height: 15%;
+  animation: drop 2.0s ease;
+}
+
+.mid-pic4 {
+  position: absolute;
+  top: 670px;
+  right: 110px;
+  z-index: -1;
+  opacity: 1;
+  height: 15%;
+  animation: drop 2.0s ease;
+}
+
+.mid-pic5 {
+  position: absolute;
+  top: 305px;
+  right: 10px;
+  z-index: -0.8;
+  opacity: 0.5;
+  height: 20%;
+  animation: drop 2.0s ease;
+}
+
+.mid-pic {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+  opacity: 1;
+  height: 110%;
+  animation: drop 2.0s ease;
+}
+
+@keyframes drop {
+  0%{
+    opacity: 0;
+    transform: translate(-80px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+}
+
+.nav-links {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.burger div{
+    right: 0px;
+    width: 50px;
+    height: 2px;
+    background-color: skyblue;
+    margin: 6px;
+    width: 45%;
+    animation: drop 0.7s ease;
+    transform: translateX(60%);
+
+}
